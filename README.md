@@ -10,5 +10,14 @@ Nexledger Accelerator (https://github.com/nexledger/accelerator)
 Nexledger Innovation Sandbox (https://github.com/nexledger/innovation-sandbox)
 
 
+### Prerequisites
+
+* Go (1.11.0 or greater)  
+* Docker (17.06.2-ce or greater)  
+* Docker-compose (1.14.0 or greater)  
+* NodeJS 8.X  
+* node-gyp  
+
+
 
 
