@@ -32,9 +32,9 @@ Nexledger Innovation Sandbox (https://github.com/nexledger/innovation-sandbox)
 ### Configure Nexledger Accelerator   
 * Copy the directory of innovation-sandbox into the folder of accelerator  
 * Install the node modules from innovation-sandbox/caliper  
-*npm install*  
+          `<npm install>`
 * Install the modules for the fabric through the following command in that folder  
-*npm run fabric-v1.4-deps*
+          `<npm run fabric-v1.4-deps>`
 
 
 
