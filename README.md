@@ -4,7 +4,7 @@ Nexledger Accelerator Configuration and Test
 ==
 网络的性能测试优越性代表双链架构的好处，利用主流的性能测试工具对区块链网络的性能进行测试。  
 
-### Required Tools
+### Required Tools(测试工具)
 
 Nexledger Accelerator (https://github.com/nexledger/accelerator)  
 Nexledger Innovation Sandbox (https://github.com/nexledger/innovation-sandbox)
@@ -17,6 +17,14 @@ Nexledger Innovation Sandbox (https://github.com/nexledger/innovation-sandbox)
 * Docker-compose (1.14.0 or greater)  
 * NodeJS 8.X  
 * node-gyp  
+
+### Install Nexledger Accelerator 
+
+1.Download nexledger accelerator from GitHub  
+* git clone https://github.com/nexledger/accelerator.git
+2.Build accelerator  
+* go build cmd/accelerator.go
+
 
 
 
