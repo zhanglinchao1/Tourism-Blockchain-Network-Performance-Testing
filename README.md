@@ -34,7 +34,13 @@ Nexledger Innovation Sandbox (https://github.com/nexledger/innovation-sandbox)
 * Install the node modules from innovation-sandbox/caliper  
           `<npm install>`
 * Install the modules for the fabric through the following command in that folder  
-          `<npm run fabric-v1.4-deps>`
+          `<npm run fabric-v1.4-deps>`  
+### Run the Tests  
+
+* The current version supports two benchmark scenarios, simple and smallbank which are provided by Caliper.  
+*Move to caliper directory and run scripts/main.js with option. -c is a path to benchmark workload file and -n is a path to the blockchain configuration file.  
+*For example, the following command executes the performance evaluation with Accelerator in 1 organization with 2 peers network.  
+`<node scripts/main.js -c benchmark/simple/config.yaml -n network/fabric-v1.4/1org2peeraccelerator/fabric-go.json>`  
 
 
 
